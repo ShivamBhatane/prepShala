@@ -1,7 +1,6 @@
 import { interviewCovers, mappings} from '@/constants';
 import dayjs from "dayjs";
 import Image from "next/image";
-import { Feedback } from '@/types/feedbackType';
 import  { getRandomInterviewCover } from '@/lib/utils';
 import { Button } from './ui/button';
 import Link from 'next/link';
